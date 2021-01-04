@@ -2,7 +2,7 @@
   angular.module('myapp',[])
   .controller('myController',function($scope){
 $scope.AddItem=function(){
-if($scope.lunchitem=="")
+if(angular.isUndefinedOrNullOrEmpty$scope.lunchitem)
 {
   alert("Please Please enter data first");
   return;
