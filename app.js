@@ -5,7 +5,7 @@
 $scope.AddItem=function(){
   if($scope.lunchitem=="")
   {
-    alert("Please Please enter data first");
+    alert("Please enter data first");
     return;
   }
   var items = $scope.lunchitem.split(',');
